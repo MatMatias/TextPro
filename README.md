@@ -2,7 +2,7 @@
 
 TextPro is a little command line python program that creates a dialogue via command line.
 
-#Features:
+### Features:
 -Detects questions if the phrase starts with an interrogative pronoun
 -Capitalizes all strings inserted
 
