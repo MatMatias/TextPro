@@ -14,15 +14,18 @@ def ver_if_question(string):                    #verifies if the current string 
 
     return f'{string}.'
 
+def format_str_array(str_array):
+    return "\n".join(str_array)
+
 str_input = ''
 str_array = []
 
 while True:
+    str_input = input('Say something: ')
     if(str_input == '\end'):
         break
     else:
-        str_input = input('Say something: ')
         str_array.append(ver_if_question(str_input))
         continue
 
-print(capitalize_str(str_array))
+print(format_str_array(capitalize_str(str_array)))

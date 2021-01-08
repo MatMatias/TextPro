@@ -23,7 +23,9 @@ To end the program, the user must type:
 ```
 ### Output
 ```
-['Hello There.', 'How are you?', 'I'm fine, thanks.']
+Hello There.
+How are you?
+I'm fine, thanks.
 ```
 ### Installation
 
@@ -44,4 +46,3 @@ Linux users:
 ```
 $ python textpro.py
 ```
-### Work in progress
